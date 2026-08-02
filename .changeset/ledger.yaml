@@ -1,0 +1,24 @@
+"@moon7/async@0.1.4":
+  dir: packages/async
+  intents:
+    - curvy-webs-guess
+"@moon7/bits@0.1.1":
+  dir: packages/bits
+  intents:
+    - curvy-webs-guess
+"@moon7/inspect@0.1.2":
+  dir: packages/inspect
+  intents:
+    - curvy-webs-guess
+"@moon7/result@0.1.2":
+  dir: packages/result
+  intents:
+    - curvy-webs-guess
+"@moon7/signals@0.1.1":
+  dir: packages/signals
+  intents:
+    - curvy-webs-guess
+"@moon7/sort@0.1.7":
+  dir: packages/sort
+  intents:
+    - curvy-webs-guess
