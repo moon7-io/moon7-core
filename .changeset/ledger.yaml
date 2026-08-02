@@ -14,10 +14,18 @@
   dir: packages/cache
   intents:
     - soft-sheep-repair
+"@moon7/error@0.1.0":
+  dir: packages/error
+  intents:
+    - busy-dolls-heal
 "@moon7/inspect@0.1.2":
   dir: packages/inspect
   intents:
     - curvy-webs-guess
+"@moon7/random@0.1.0":
+  dir: packages/random
+  intents:
+    - busy-dolls-heal
 "@moon7/result@0.1.2":
   dir: packages/result
   intents:
