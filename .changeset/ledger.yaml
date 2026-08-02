@@ -42,3 +42,11 @@
   dir: packages/struct
   intents:
     - eight-meteors-speak
+"@moon7/text@0.1.0":
+  dir: packages/text
+  intents:
+    - slimy-spies-wish
+"@moon7/validate@0.1.0":
+  dir: packages/validate
+  intents:
+    - slimy-spies-wish
