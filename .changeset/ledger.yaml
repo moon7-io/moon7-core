@@ -10,6 +10,10 @@
   dir: packages/bits
   intents:
     - curvy-webs-guess
+"@moon7/cache@0.1.0":
+  dir: packages/cache
+  intents:
+    - soft-sheep-repair
 "@moon7/inspect@0.1.2":
   dir: packages/inspect
   intents:
