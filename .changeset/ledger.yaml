@@ -2,6 +2,10 @@
   dir: packages/async
   intents:
     - curvy-webs-guess
+"@moon7/base@0.1.0":
+  dir: packages/base
+  intents:
+    - itchy-taxes-roll
 "@moon7/bits@0.1.1":
   dir: packages/bits
   intents:
