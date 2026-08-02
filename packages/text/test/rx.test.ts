@@ -7,7 +7,7 @@ describe("rx tagged template", () => {
             foo ${123} abc // comment
             baz
         `;
-        expect(rx.source).toBe(`foo123abcbaz`);
+        expect(rx.source).toBe("foo123abcbaz");
     });
 
     test("regexp with flags", () => {
@@ -15,8 +15,8 @@ describe("rx tagged template", () => {
             foo ${123} abc // comment
             baz
         `;
-        expect(rx.source).toBe(`foo123abcbaz`);
-        expect(rx.flags).toBe(`gm`);
+        expect(rx.source).toBe("foo123abcbaz");
+        expect(rx.flags).toBe("gm");
     });
 
     test("regexp slashes", () => {
