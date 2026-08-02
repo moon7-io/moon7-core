@@ -119,6 +119,7 @@ describe("Built-in Type Inspectors", () => {
 
             // Function arguments
             function testFunc(...args: number[]) {
+                // eslint-disable-next-line prefer-rest-params
                 expect(isArrayLike(arguments)).toBe(true);
                 expect(isArrayLike(args)).toBe(true);
             }
@@ -324,6 +325,7 @@ describe("Built-in Type Inspectors", () => {
             expect(isInstance(new String("test"))).toBe(true);
             expect(isInstance(new Number(42))).toBe(true);
             expect(isInstance(new Boolean(true))).toBe(true);
+            // eslint-disable-next-line @typescript-eslint/no-array-constructor
             expect(isInstance(new Array())).toBe(true);
             expect(isInstance(new Set())).toBe(true);
             expect(isInstance(new Map())).toBe(true);

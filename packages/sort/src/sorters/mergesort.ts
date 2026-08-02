@@ -73,7 +73,7 @@ function rec<T>(a: T[], cmp: Comparator<T>, lo: number, hi: number, small: numbe
 }
 
 function doMerge<T>(a: T[], cmp: Comparator<T>, from: number, pivot: number, to: number, len1: number, len2: number) {
-    let first_cut, second_cut, len11, len22, new_mid;
+    let first_cut, second_cut, len11, len22;
     if (len1 == 0 || len2 == 0) return;
     if (len1 + len2 == 2) {
         if (cmp(a[pivot], a[from]) < 0) {
@@ -95,7 +95,7 @@ function doMerge<T>(a: T[], cmp: Comparator<T>, from: number, pivot: number, to:
         len11 = first_cut - from;
     }
     rotate(a, first_cut, pivot, second_cut);
-    new_mid = first_cut + len22;
+    const new_mid = first_cut + len22;
     doMerge(a, cmp, from, first_cut, new_mid, len11, len22);
     doMerge(a, cmp, new_mid, second_cut, to, len1 - len11, len2 - len22);
 }

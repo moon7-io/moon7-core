@@ -96,7 +96,7 @@ export function all<V, E>(...many: Result<V, E>[]): Result<V[], E> {
  * @returns First Ok Result or Err containing array of all errors
  */
 export function any<V, E>(...many: Result<V, E>[]): Result<V, E[]> {
-    let errors: E[] = [];
+    const errors: E[] = [];
     for (const item of many) {
         if (isOk(item)) {
             return item;

@@ -279,12 +279,11 @@ describe("Higher-Order Inspectors", () => {
             };
 
             // This would normally cause a ReferenceError without lazy evaluation
-            const isTreeNode = is(
-                (): Inspector<TreeNode> =>
-                    isObjectOf({
-                        value: isString,
-                        children: isArrayOf(isTreeNode),
-                    })
+            const isTreeNode = is((): Inspector<TreeNode> =>
+                isObjectOf({
+                    value: isString,
+                    children: isArrayOf(isTreeNode),
+                })
             );
 
             const validTree = {

@@ -15,10 +15,7 @@ export type Comparator<T> = (a: T, b: T) => number;
  * Includes actual strings and objects that can be coerced to strings
  */
 export type StringLike =
-    | string
-    | { toString(): string }
-    | { valueOf(): string }
-    | { [Symbol.toPrimitive](hint: "string"): string };
+    string | { toString(): string } | { valueOf(): string } | { [Symbol.toPrimitive](hint: "string"): string };
 
 /**
  * Type representing number-like values that can be used in comparisons

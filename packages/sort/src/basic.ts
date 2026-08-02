@@ -101,7 +101,7 @@ export enum Direction {
  * The implementation treats any truthy value as ascending and any falsy value as descending.
  */
 export function dir<T>(isAscending: boolean | Direction): Comparator<T> {
-    return !!isAscending ? ascending : descending;
+    return isAscending ? ascending : descending;
 }
 
 /**

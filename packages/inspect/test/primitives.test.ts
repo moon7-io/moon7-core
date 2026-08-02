@@ -236,6 +236,7 @@ describe("Primitive Inspectors", () => {
         it("should return true for arrays", () => {
             expect(isArray([])).toBe(true);
             expect(isArray([1, 2, 3])).toBe(true);
+            // eslint-disable-next-line @typescript-eslint/no-array-constructor
             expect(isArray(new Array())).toBe(true);
         });
 

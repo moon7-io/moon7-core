@@ -54,7 +54,7 @@ export function all<L, R>(...many: Either<L, R>[]): Either<L, R[]> {
 }
 
 export function any<L, R>(...many: Either<L, R>[]): Either<L[], R> {
-    let errors: L[] = [];
+    const errors: L[] = [];
     for (const item of many) {
         if (isRight(item)) {
             return item;

@@ -1,5 +1,5 @@
 import { expect, test, describe } from "vitest";
-import { Future, isFuture, map, of } from "~/future";
+import { Future, isFuture, of } from "~/future";
 import { isNone, isSome } from "~/maybe";
 
 const sleep = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
@@ -36,12 +36,13 @@ describe.skip("Future", () => {
 
         expect(isSome(future())).toBe(true);
 
-        map(
-            future,
-            value => value.length * 2
-        )(result => {
-            console.log("Callback D called with value:", result);
-        });
+        // TODO:
+        // map(
+        //     future,
+        //     value => value.length * 2
+        // )(result => {
+        //     console.log("Callback D called with value:", result);
+        // });
 
         expect(isFuture(future)).toBe(true);
     });
