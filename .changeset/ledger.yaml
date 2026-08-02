@@ -38,3 +38,7 @@
   dir: packages/sort
   intents:
     - curvy-webs-guess
+"@moon7/struct@0.1.0":
+  dir: packages/struct
+  intents:
+    - eight-meteors-speak
