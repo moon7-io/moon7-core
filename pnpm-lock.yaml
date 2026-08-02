@@ -81,6 +81,51 @@ importers:
         specifier: ^3.2.4
         version: 3.2.7(@types/node@22.20.1)(jiti@2.7.0)(supports-color@8.1.1)(yaml@2.9.0)
 
+  packages/base:
+    devDependencies:
+      '@ls-lint/ls-lint':
+        specifier: ^2.3.1
+        version: 2.3.1
+      '@moon7/config-eslint':
+        specifier: ^0.1.5
+        version: 0.1.5(@typescript-eslint/parser@8.65.0(eslint@9.39.5(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@5.9.3))(eslint@9.39.5(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@5.9.3)
+      '@moon7/config-vite':
+        specifier: ^0.1.2
+        version: 0.1.2(quasar@2.23.4)(typescript@5.9.3)(vite@7.3.6(@types/node@22.20.1)(jiti@2.7.0)(yaml@2.9.0))
+      '@types/node':
+        specifier: ^22.18.13
+        version: 22.20.1
+      '@vitest/coverage-v8':
+        specifier: ^3.2.4
+        version: 3.2.7(supports-color@8.1.1)(vitest@3.2.7(@types/node@22.20.1)(jiti@2.7.0)(supports-color@8.1.1)(yaml@2.9.0))
+      cspell:
+        specifier: ^9.2.2
+        version: 9.8.0
+      eslint:
+        specifier: ^9.39.0
+        version: 9.39.5(jiti@2.7.0)(supports-color@8.1.1)
+      npm-run-all2:
+        specifier: ^8.0.4
+        version: 8.0.4
+      prettier:
+        specifier: ^3.6.2
+        version: 3.9.6
+      rimraf:
+        specifier: ^6.1.0
+        version: 6.1.3
+      typescript:
+        specifier: ^5.9.3
+        version: 5.9.3
+      vite:
+        specifier: ^7.1.12
+        version: 7.3.6(@types/node@22.20.1)(jiti@2.7.0)(yaml@2.9.0)
+      vite-plugin-dts:
+        specifier: ^4.5.4
+        version: 4.5.4(@types/node@22.20.1)(rollup@4.62.4)(supports-color@8.1.1)(typescript@5.9.3)(vite@7.3.6(@types/node@22.20.1)(jiti@2.7.0)(yaml@2.9.0))
+      vitest:
+        specifier: ^3.2.4
+        version: 3.2.7(@types/node@22.20.1)(jiti@2.7.0)(supports-color@8.1.1)(yaml@2.9.0)
+
   packages/bits:
     devDependencies:
       '@ls-lint/ls-lint':
