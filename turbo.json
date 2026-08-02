@@ -1,0 +1,37 @@
+{
+    "$schema": "https://turbo.build/schema.json",
+    "globalDependencies": ["**/.env.*local"],
+    "globalEnv": ["AWS_CA_TOKEN"],
+    "tasks": {
+        "build": {
+            "dependsOn": ["^build"],
+            "outputs": ["dist/**"]
+        },
+        "lint": {
+            "dependsOn": ["^lint"]
+        },
+        "lint-ci": {
+            "dependsOn": ["^lint-ci"]
+        },
+        "dev": {
+            "cache": false,
+            "persistent": true
+        },
+        "test": {
+            "dependsOn": ["^test"]
+        },
+        "test:watch": {
+            "cache": false,
+            "persistent": true
+        },
+        "test:coverage": {
+            "cache": false
+        },
+        "fix": {
+            "dependsOn": ["^fix"]
+        },
+        "e2e": {
+            "dependsOn": ["^build"]
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "trailingComma": "es5",
+    "tabWidth": 4,
+    "useTabs": false,
+    "semi": true,
+    "singleQuote": false,
+    "quoteProps": "consistent",
+    "jsxSingleQuote": false,
+    "arrowParens": "avoid",
+    "printWidth": 120,
+    "endOfLine": "auto",
+    "vueIndentScriptAndStyle": true,
+    "overrides": [
+        {
+            "files": "*.(yml|yaml)",
+            "options": {
+                "tabWidth": 2
+            }
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "name": "@moon7/core",
+    "private": true,
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/moon7-io/moon7-core.git"
+    },
+    "homepage": "https://github.com/moon7-io/moon7-core#readme",
+    "bugs": {
+        "url": "https://github.com/moon7-io/moon7-core/issues"
+    },
+    "scripts": {
+        "clean": "pnpm clean:vite && pnpm clean:turbo && pnpm clean:dist",
+        "clean:vite": "rimraf -v -g **/vite.config.ts.timestamp*",
+        "clean:turbo": "rimraf -v -g **/.turbo",
+        "clean:dist": "rimraf -v -g **/dist",
+        "clean:node": "rimraf -v -g **/node_modules",
+        "clean:full": "pnpm clean && pnpm clean:node",
+        "build": "turbo build",
+        "lint": "turbo lint",
+        "lint-ci": "turbo lint-ci",
+        "libs-audit": "pnpm audit --audit-level=high && echo 'audit passed!'",
+        "dev": "turbo dev",
+        "fix": "turbo fix",
+        "test": "turbo test",
+        "test:coverage": "turbo test:coverage",
+        "knip": "knip",
+        "knip:dependencies": "knip --dependencies",
+        "knip:unimported": "knip --production --dependencies --files"
+    },
+    "devDependencies": {
+        "@dotenvx/dotenvx": "^2.19.1",
+        "@types/node": "^22.18.13",
+        "cross-env": "^10.1.0",
+        "knip": "^5.66.4",
+        "prettier": "^3.6.2",
+        "rimraf": "^6.1.0",
+        "turbo": "^2.6.0",
+        "typescript": "^5.9.3",
+        "vitest": "^3.2.4"
+    },
+    "packageManager": "pnpm@11.18.0",
+    "engines": {
+        "node": ">=22"
+    }
+}

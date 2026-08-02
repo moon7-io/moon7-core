@@ -1,0 +1,39 @@
+ls:
+  .js: kebab-case
+  .ts: kebab-case
+  .html: kebab-case
+
+  src:
+    .dir: kebab-case
+    .ts: kebab-case | PascalCase | regex:[A-Z][a-zA-Z0-9]*
+    .tsx: kebab-case | PascalCase
+    .d.ts: kebab-case
+    .vue: PascalCase | regex:[A-Z][a-zA-Z0-9]*
+    .css: kebab-case
+    .scss: kebab-case | regex:_[A-Z0-9]+([A-Z0-9]?[A-Za-z0-9]+)*
+    .svg: kebab-case
+
+  test:
+    .dir: kebab-case
+    .ts: kebab-case
+    .tsx: kebab-case
+    .vue: PascalCase | regex:[A-Z][a-zA-Z0-9]*
+    .test.ts: kebab-case | PascalCase
+    .spec.ts: kebab-case
+    .mock.ts: kebab-case | PascalCase
+
+  types:
+    .d.ts: kebab-case
+
+  public:
+    .html: kebab-case
+
+ignore:
+  - node_modules
+  - dist
+  - .git
+  - coverage
+  - .turbo
+  - .vscode
+  - .github
+  - playwright-report
