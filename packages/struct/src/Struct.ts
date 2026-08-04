@@ -55,9 +55,14 @@ export namespace Struct {
      *
      * Any extra overrides will be merged into the cloned object.
      */
+    export function clone<T>(value: T): T;
+    export function clone<T extends {}>(value: T, ...overrides: (Partial<T> | null | undefined)[]): T;
     export function clone<T extends {}>(value: T, ...overrides: (Partial<T> | null | undefined)[]): T {
         const cloned: T = Clone.cloneAny(value, { refs: new Map(), strict: false });
         if (overrides.length > 0) {
+            if (typeof value !== "object" || value == null) {
+                throw new Error("Cannot merge overrides into non-object value");
+            }
             return merge(cloned, ...overrides);
         }
         return cloned;

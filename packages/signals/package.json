@@ -54,8 +54,8 @@
     },
     "devDependencies": {
         "@ls-lint/ls-lint": "^2.3.1",
-        "@moon7/config-eslint": "^0.1.5",
-        "@moon7/config-vite": "^0.1.2",
+        "@moon7/config-eslint": "^0.1.7",
+        "@moon7/config-vite": "^0.1.6",
         "@types/node": "^22.18.13",
         "@vitest/coverage-v8": "^3.2.4",
         "cspell": "^9.2.2",

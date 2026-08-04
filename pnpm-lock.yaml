@@ -42,11 +42,11 @@ importers:
         specifier: ^2.3.1
         version: 2.3.1
       '@moon7/config-eslint':
-        specifier: ^0.1.5
-        version: 0.1.5(@typescript-eslint/parser@8.65.0(eslint@9.39.5(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@5.9.3))(eslint@9.39.5(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@5.9.3)
+        specifier: ^0.1.7
+        version: 0.1.7(@typescript-eslint/parser@8.65.0(eslint@9.39.5(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@5.9.3))(eslint@9.39.5(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@5.9.3)
       '@moon7/config-vite':
-        specifier: ^0.1.2
-        version: 0.1.2(quasar@2.23.4)(typescript@5.9.3)(vite@7.3.6(@types/node@22.20.1)(jiti@2.7.0)(yaml@2.9.0))
+        specifier: ^0.1.6
+        version: 0.1.6(quasar@2.23.4)(typescript@5.9.3)(vite@7.3.6(@types/node@22.20.1)(jiti@2.7.0)(yaml@2.9.0))
       '@types/node':
         specifier: ^22.18.13
         version: 22.20.1
@@ -87,11 +87,11 @@ importers:
         specifier: ^2.3.1
         version: 2.3.1
       '@moon7/config-eslint':
-        specifier: ^0.1.5
-        version: 0.1.5(@typescript-eslint/parser@8.65.0(eslint@9.39.5(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@5.9.3))(eslint@9.39.5(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@5.9.3)
+        specifier: ^0.1.7
+        version: 0.1.7(@typescript-eslint/parser@8.65.0(eslint@9.39.5(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@5.9.3))(eslint@9.39.5(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@5.9.3)
       '@moon7/config-vite':
-        specifier: ^0.1.2
-        version: 0.1.2(quasar@2.23.4)(typescript@5.9.3)(vite@7.3.6(@types/node@22.20.1)(jiti@2.7.0)(yaml@2.9.0))
+        specifier: ^0.1.6
+        version: 0.1.6(quasar@2.23.4)(typescript@5.9.3)(vite@7.3.6(@types/node@22.20.1)(jiti@2.7.0)(yaml@2.9.0))
       '@types/node':
         specifier: ^22.18.13
         version: 22.20.1
@@ -132,11 +132,11 @@ importers:
         specifier: ^2.3.1
         version: 2.3.1
       '@moon7/config-eslint':
-        specifier: ^0.1.5
-        version: 0.1.5(@typescript-eslint/parser@8.65.0(eslint@9.39.5(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@5.9.3))(eslint@9.39.5(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@5.9.3)
+        specifier: ^0.1.7
+        version: 0.1.7(@typescript-eslint/parser@8.65.0(eslint@9.39.5(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@5.9.3))(eslint@9.39.5(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@5.9.3)
       '@moon7/config-vite':
-        specifier: ^0.1.2
-        version: 0.1.2(quasar@2.23.4)(typescript@5.9.3)(vite@7.3.6(@types/node@22.20.1)(jiti@2.7.0)(yaml@2.9.0))
+        specifier: ^0.1.6
+        version: 0.1.6(quasar@2.23.4)(typescript@5.9.3)(vite@7.3.6(@types/node@22.20.1)(jiti@2.7.0)(yaml@2.9.0))
       '@types/node':
         specifier: ^22.18.13
         version: 22.20.1
@@ -177,11 +177,11 @@ importers:
         specifier: ^2.3.1
         version: 2.3.1
       '@moon7/config-eslint':
-        specifier: ^0.1.5
-        version: 0.1.5(@typescript-eslint/parser@8.65.0(eslint@9.39.5(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@5.9.3))(eslint@9.39.5(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@5.9.3)
+        specifier: ^0.1.7
+        version: 0.1.7(@typescript-eslint/parser@8.65.0(eslint@9.39.5(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@5.9.3))(eslint@9.39.5(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@5.9.3)
       '@moon7/config-vite':
-        specifier: ^0.1.2
-        version: 0.1.2(quasar@2.23.4)(typescript@5.9.3)(vite@7.3.6(@types/node@22.20.1)(jiti@2.7.0)(yaml@2.9.0))
+        specifier: ^0.1.6
+        version: 0.1.6(quasar@2.23.4)(typescript@5.9.3)(vite@7.3.6(@types/node@22.20.1)(jiti@2.7.0)(yaml@2.9.0))
       '@types/node':
         specifier: ^22.18.13
         version: 22.20.1
@@ -222,11 +222,11 @@ importers:
         specifier: ^2.3.1
         version: 2.3.1
       '@moon7/config-eslint':
-        specifier: ^0.1.5
-        version: 0.1.5(@typescript-eslint/parser@8.65.0(eslint@9.39.5(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@5.9.3))(eslint@9.39.5(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@5.9.3)
+        specifier: ^0.1.7
+        version: 0.1.7(@typescript-eslint/parser@8.65.0(eslint@9.39.5(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@5.9.3))(eslint@9.39.5(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@5.9.3)
       '@moon7/config-vite':
-        specifier: ^0.1.2
-        version: 0.1.2(quasar@2.23.4)(typescript@5.9.3)(vite@7.3.6(@types/node@22.20.1)(jiti@2.7.0)(yaml@2.9.0))
+        specifier: ^0.1.6
+        version: 0.1.6(quasar@2.23.4)(typescript@5.9.3)(vite@7.3.6(@types/node@22.20.1)(jiti@2.7.0)(yaml@2.9.0))
       '@types/node':
         specifier: ^22.18.13
         version: 22.20.1
@@ -267,11 +267,11 @@ importers:
         specifier: ^2.3.1
         version: 2.3.1
       '@moon7/config-eslint':
-        specifier: ^0.1.5
-        version: 0.1.5(@typescript-eslint/parser@8.65.0(eslint@9.39.5(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@5.9.3))(eslint@9.39.5(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@5.9.3)
+        specifier: ^0.1.7
+        version: 0.1.7(@typescript-eslint/parser@8.65.0(eslint@9.39.5(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@5.9.3))(eslint@9.39.5(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@5.9.3)
       '@moon7/config-vite':
-        specifier: ^0.1.2
-        version: 0.1.2(quasar@2.23.4)(typescript@5.9.3)(vite@7.3.6(@types/node@22.20.1)(jiti@2.7.0)(yaml@2.9.0))
+        specifier: ^0.1.6
+        version: 0.1.6(quasar@2.23.4)(typescript@5.9.3)(vite@7.3.6(@types/node@22.20.1)(jiti@2.7.0)(yaml@2.9.0))
       '@types/node':
         specifier: ^22.18.13
         version: 22.20.1
@@ -312,11 +312,11 @@ importers:
         specifier: ^2.3.1
         version: 2.3.1
       '@moon7/config-eslint':
-        specifier: ^0.1.5
-        version: 0.1.5(@typescript-eslint/parser@8.65.0(eslint@9.39.5(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@5.9.3))(eslint@9.39.5(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@5.9.3)
+        specifier: ^0.1.7
+        version: 0.1.7(@typescript-eslint/parser@8.65.0(eslint@9.39.5(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@5.9.3))(eslint@9.39.5(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@5.9.3)
       '@moon7/config-vite':
-        specifier: ^0.1.2
-        version: 0.1.2(quasar@2.23.4)(typescript@5.9.3)(vite@7.3.6(@types/node@22.20.1)(jiti@2.7.0)(yaml@2.9.0))
+        specifier: ^0.1.6
+        version: 0.1.6(quasar@2.23.4)(typescript@5.9.3)(vite@7.3.6(@types/node@22.20.1)(jiti@2.7.0)(yaml@2.9.0))
       '@types/node':
         specifier: ^22.18.13
         version: 22.20.1
@@ -357,11 +357,11 @@ importers:
         specifier: ^2.3.1
         version: 2.3.1
       '@moon7/config-eslint':
-        specifier: ^0.1.5
-        version: 0.1.5(@typescript-eslint/parser@8.65.0(eslint@9.39.5(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@5.9.3))(eslint@9.39.5(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@5.9.3)
+        specifier: ^0.1.7
+        version: 0.1.7(@typescript-eslint/parser@8.65.0(eslint@9.39.5(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@5.9.3))(eslint@9.39.5(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@5.9.3)
       '@moon7/config-vite':
-        specifier: ^0.1.2
-        version: 0.1.2(quasar@2.23.4)(typescript@5.9.3)(vite@7.3.6(@types/node@22.20.1)(jiti@2.7.0)(yaml@2.9.0))
+        specifier: ^0.1.6
+        version: 0.1.6(quasar@2.23.4)(typescript@5.9.3)(vite@7.3.6(@types/node@22.20.1)(jiti@2.7.0)(yaml@2.9.0))
       '@types/node':
         specifier: ^22.18.13
         version: 22.20.1
@@ -402,11 +402,11 @@ importers:
         specifier: ^2.3.1
         version: 2.3.1
       '@moon7/config-eslint':
-        specifier: ^0.1.5
-        version: 0.1.5(@typescript-eslint/parser@8.65.0(eslint@9.39.5(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@5.9.3))(eslint@9.39.5(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@5.9.3)
+        specifier: ^0.1.7
+        version: 0.1.7(@typescript-eslint/parser@8.65.0(eslint@9.39.5(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@5.9.3))(eslint@9.39.5(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@5.9.3)
       '@moon7/config-vite':
-        specifier: ^0.1.2
-        version: 0.1.2(quasar@2.23.4)(typescript@5.9.3)(vite@7.3.6(@types/node@22.20.1)(jiti@2.7.0)(yaml@2.9.0))
+        specifier: ^0.1.6
+        version: 0.1.6(quasar@2.23.4)(typescript@5.9.3)(vite@7.3.6(@types/node@22.20.1)(jiti@2.7.0)(yaml@2.9.0))
       '@types/node':
         specifier: ^22.18.13
         version: 22.20.1
@@ -447,11 +447,11 @@ importers:
         specifier: ^2.3.1
         version: 2.3.1
       '@moon7/config-eslint':
-        specifier: ^0.1.5
-        version: 0.1.5(@typescript-eslint/parser@8.65.0(eslint@9.39.5(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@5.9.3))(eslint@9.39.5(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@5.9.3)
+        specifier: ^0.1.7
+        version: 0.1.7(@typescript-eslint/parser@8.65.0(eslint@9.39.5(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@5.9.3))(eslint@9.39.5(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@5.9.3)
       '@moon7/config-vite':
-        specifier: ^0.1.2
-        version: 0.1.2(quasar@2.23.4)(typescript@5.9.3)(vite@7.3.6(@types/node@22.20.1)(jiti@2.7.0)(yaml@2.9.0))
+        specifier: ^0.1.6
+        version: 0.1.6(quasar@2.23.4)(typescript@5.9.3)(vite@7.3.6(@types/node@22.20.1)(jiti@2.7.0)(yaml@2.9.0))
       '@types/node':
         specifier: ^22.18.13
         version: 22.20.1
@@ -502,11 +502,11 @@ importers:
         specifier: ^2.3.1
         version: 2.3.1
       '@moon7/config-eslint':
-        specifier: ^0.1.5
-        version: 0.1.5(@typescript-eslint/parser@8.65.0(eslint@9.39.5(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@5.9.3))(eslint@9.39.5(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@5.9.3)
+        specifier: ^0.1.7
+        version: 0.1.7(@typescript-eslint/parser@8.65.0(eslint@9.39.5(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@5.9.3))(eslint@9.39.5(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@5.9.3)
       '@moon7/config-vite':
-        specifier: ^0.1.2
-        version: 0.1.2(quasar@2.23.4)(typescript@5.9.3)(vite@7.3.6(@types/node@22.20.1)(jiti@2.7.0)(yaml@2.9.0))
+        specifier: ^0.1.6
+        version: 0.1.6(quasar@2.23.4)(typescript@5.9.3)(vite@7.3.6(@types/node@22.20.1)(jiti@2.7.0)(yaml@2.9.0))
       '@types/node':
         specifier: ^22.18.13
         version: 22.20.1
@@ -547,11 +547,11 @@ importers:
         specifier: ^2.3.1
         version: 2.3.1
       '@moon7/config-eslint':
-        specifier: ^0.1.5
-        version: 0.1.5(@typescript-eslint/parser@8.65.0(eslint@9.39.5(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@5.9.3))(eslint@9.39.5(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@5.9.3)
+        specifier: ^0.1.7
+        version: 0.1.7(@typescript-eslint/parser@8.65.0(eslint@9.39.5(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@5.9.3))(eslint@9.39.5(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@5.9.3)
       '@moon7/config-vite':
-        specifier: ^0.1.2
-        version: 0.1.2(quasar@2.23.4)(typescript@5.9.3)(vite@7.3.6(@types/node@22.20.1)(jiti@2.7.0)(yaml@2.9.0))
+        specifier: ^0.1.6
+        version: 0.1.6(quasar@2.23.4)(typescript@5.9.3)(vite@7.3.6(@types/node@22.20.1)(jiti@2.7.0)(yaml@2.9.0))
       '@types/node':
         specifier: ^22.18.13
         version: 22.20.1
@@ -596,11 +596,11 @@ importers:
         specifier: ^2.3.1
         version: 2.3.1
       '@moon7/config-eslint':
-        specifier: ^0.1.5
-        version: 0.1.5(@typescript-eslint/parser@8.65.0(eslint@9.39.5(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@5.9.3))(eslint@9.39.5(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@5.9.3)
+        specifier: ^0.1.7
+        version: 0.1.7(@typescript-eslint/parser@8.65.0(eslint@9.39.5(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@5.9.3))(eslint@9.39.5(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@5.9.3)
       '@moon7/config-vite':
-        specifier: ^0.1.2
-        version: 0.1.2(quasar@2.23.4)(typescript@5.9.3)(vite@7.3.6(@types/node@22.20.1)(jiti@2.7.0)(yaml@2.9.0))
+        specifier: ^0.1.6
+        version: 0.1.6(quasar@2.23.4)(typescript@5.9.3)(vite@7.3.6(@types/node@22.20.1)(jiti@2.7.0)(yaml@2.9.0))
       '@types/node':
         specifier: ^22.18.13
         version: 22.20.1
@@ -1176,14 +1176,14 @@ packages:
   '@microsoft/tsdoc@0.16.0':
     resolution: {integrity: sha512-xgAyonlVVS+q7Vc7qLW0UrJU7rSFcETRWsqdXZtjzRU8dF+6CkozTK4V4y1LwOX7j8r/vHphjDeMeGI4tNGeGA==}
 
-  '@moon7/config-eslint@0.1.5':
-    resolution: {integrity: sha512-xtAfIa4nlvtwKTsNOFLoWfTWGrSUPwYriFdUpvYOLl6F6V0ZqVNP6EmqklX+vtrvj5cizE7YB66yPQ+GvGrTvA==}
+  '@moon7/config-eslint@0.1.7':
+    resolution: {integrity: sha512-SmnLFw4PBYxw8exyJjvwRLCQPMD5jAxh7IXLmADFPnU3KdGlpwNLeATp3i7n6rGuNRArJfNKDhlR7HnNBmexFA==}
     engines: {node: '>=22'}
     peerDependencies:
       eslint: ^9.0.0
 
-  '@moon7/config-vite@0.1.2':
-    resolution: {integrity: sha512-XeT878SakdCzw2JFo2sIGnmse3iPSY9nWg3Hr+oZcZcJfvtekJ9ETn4Nl8A/3CP4CS0mewhJrPm5QpLQxStC/A==}
+  '@moon7/config-vite@0.1.6':
+    resolution: {integrity: sha512-SCNBFblqhp1phCD4O2qvQ80xrzgFxQQHwr9fr2Zk2YNH/sEsX82zXjGTL6RKAyVBon2sWYUjRsZo7feXL5maBg==}
     engines: {node: '>=22'}
 
   '@napi-rs/lzma-linux-x64-gnu@1.5.1':
@@ -3852,7 +3852,7 @@ snapshots:
 
   '@microsoft/tsdoc@0.16.0': {}
 
-  '@moon7/config-eslint@0.1.5(@typescript-eslint/parser@8.65.0(eslint@9.39.5(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@5.9.3))(eslint@9.39.5(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@5.9.3)':
+  '@moon7/config-eslint@0.1.7(@typescript-eslint/parser@8.65.0(eslint@9.39.5(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@5.9.3))(eslint@9.39.5(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@5.9.3)':
     dependencies:
       '@eslint/core': 1.2.1
       '@eslint/js': 9.39.5
@@ -3871,7 +3871,7 @@ snapshots:
       - supports-color
       - typescript
 
-  '@moon7/config-vite@0.1.2(quasar@2.23.4)(typescript@5.9.3)(vite@7.3.6(@types/node@22.20.1)(jiti@2.7.0)(yaml@2.9.0))':
+  '@moon7/config-vite@0.1.6(quasar@2.23.4)(typescript@5.9.3)(vite@7.3.6(@types/node@22.20.1)(jiti@2.7.0)(yaml@2.9.0))':
     dependencies:
       '@quasar/vite-plugin': 1.10.0(@vitejs/plugin-vue@6.0.8(vite@7.3.6(@types/node@22.20.1)(jiti@2.7.0)(yaml@2.9.0))(vue@3.5.40(typescript@5.9.3)))(quasar@2.23.4)(vite@7.3.6(@types/node@22.20.1)(jiti@2.7.0)(yaml@2.9.0))(vue@3.5.40(typescript@5.9.3))
       '@vitejs/plugin-vue': 6.0.8(vite@7.3.6(@types/node@22.20.1)(jiti@2.7.0)(yaml@2.9.0))(vue@3.5.40(typescript@5.9.3))
